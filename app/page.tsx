@@ -20,7 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and changsdf.</li>
+          <li>Save aknd ch   ngsdf.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
