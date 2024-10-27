@@ -37,7 +37,7 @@ const Hero = () => {
       <div className='max-w-[89vw'>
         <h2 className='uppercase tracking-widest text-xs text-center md:text-xs text-blue-100'>
           
-          Dynamic WebPages created with react
+          Dynamic WebPages created with react!
         </h2>
         <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words= "Work with Passion, Create with Ambition."
          ></TextGenerateEffect>
