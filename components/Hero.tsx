@@ -1,20 +1,23 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
+import Litup from './ui/Lit-up-borders'
+import { FaFacebook, FaLocationArrow } from 'react-icons/fa'
+import { Fa1, FaBriefcase, FaTicket } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
     <div className='pb-20 pt-36 overflow-hidden '>
     <div>
         <Spotlight className='-top-40 -left-20 md:-left-32 md:-top-20 h-screen w-screen'fill='white' />
-        <Spotlight className='-top-20 right- md:-left-32 md:-top-20 w-screen'fill='purple' />
+        <Spotlight className='-top-20 right- md:-left-32 md:-top-20 w-screen 'fill='purple' />
 
-        <Spotlight className='top-10 right-50 h-[80vh] w-[50vw]  'fill='blue' />
-        <Spotlight className='top-10 center h-[90vh]  'fill='purple' />
+        <Spotlight className='top-10 right-50 h-[80vh] w-[50vw] "  'fill='blue' />
+        {/* <Spotlight className='top-10 center h-[90vh]  'fill='purple' /> */}
         <Spotlight className='top-10 mr-120 h-[60vh] w-[60vw]' fill='purple' />
 
 
-        <Spotlight className='-top-20 left-1/3 h-[50vh] w-[70vw]  'fill='blue' />
+        <Spotlight className='-top-20 left-1/3 h-[50vh] w-[70vw] rotate-45 'fill='blue' />
         <Spotlight className='-top-20 left-1/2 h-[80vh] w-[90vw]  'fill='white' />
         <Spotlight className='-top-30 left-1/2 h-[70vh] w-[60vw]  'fill='purple' />
         {/* <Spotlight className='top-40 left-3/4 h-[40vh] w-[20vw]  'fill='purple' /> */}
@@ -34,13 +37,21 @@ const Hero = () => {
       <div className='max-w-[89vw'>
         <h2 className='uppercase tracking-widest text-xs text-center md:text-xs text-blue-100'>
           
-          Dynamic WebPages
+          Dynamic WebPages created with React
         </h2>
         <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words= "Work with Passion, Create with Ambition."
          ></TextGenerateEffect>
         <p className='uppercase mt-5 text-[10px] tracking-widest text-l text-center md:text-xl text-blue-100'>Hi! I'm Adrian, Engineer and Next.js Developer based in Poland</p>
+        <a href="#about">
+            <Litup 
+            title = "Show my work"
+            icon={<FaBriefcase />}
+            position='right'
+            />
+        </a>
+        
     </div>
-
+      
       </div>
       </div>
 
