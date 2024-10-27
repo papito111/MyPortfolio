@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="absolute pointer-events-none inset-0 flex items-center 
       justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/> 
     </div>
-    <div className='flex justify-center relative my-5 z-10'>
+    <div className='flex justify-center relative my-32 z-10'>
       <div className='max-w-[89vw'>
         <h2 className='uppercase tracking-widest text-xs text-center md:text-xs text-blue-100'>
           
